@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Hauptstadt",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [500, 1500],
+    "description": "Die größte Stadt des Reiches. Zentrum von Handel und Politik."
+  },
+  {
+    "title": "Königreich XY",
+    "category": "Gebiete",
+    "color": "gray",
+    "coords": [800, 1200],
+    "description": "Ein altes Königreich, das über mehrere Provinzen herrscht."
+  },
+  {
+    "title": "Finsterwald",
+    "category": "Wälder",
+    "color": "green",
+    "coords": [1200, 600],
+    "description": "Ein dichter Wald, in dem kaum Sonnenlicht den Boden erreicht."
+  },
+  {
+    "title": "Bergkette Z",
+    "category": "Gebirge",
+    "color": "brown",
+    "coords": [1600, 1000],
+    "description": "Eine unpassierbare Bergkette, Heimat von Drachen."
+  },
+  {
+    "title": "Großer See",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1400, 1800],
+    "description": "Ein tiefes Gewässer, um das sich viele Legenden ranken."
+  },
+  {
+    "title": "Handelsroute",
+    "category": "Routen",
+    "color": "red",
+    "coords": [1000, 2000],
+    "description": "Wichtige Verbindung zwischen den Handelszentren des Reiches."
+  }
+]

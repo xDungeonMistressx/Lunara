@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <title>Lunara</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-control-search/dist/leaflet-search.min.css" />
+  <style>
+    #map { height: 100vh; width: 100vw; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-control-search/dist/leaflet-search.min.js"></script>
+  <script>
+    // === Basis-Setup ===
+    var w = 3840, h = 2160; // Bildgröße anpassen!
+    var bounds = [[0,0], [h, w]];
+
+    var map = L.map('map', {
+      crs: L.CRS.Simple,
+      minZoom: -1
+    });
+
+    // === Hintergrund-Layer ===
+    var terrain = L.imageOverlay('terrain.png', bounds);
+    var politics = L.imageOverlay('grenzen.png', bounds);
+
+    var baseMaps = {
+      "Gelände": terrain,
+      "Politische Karte": politics
+    };
+
+    // === Kategorien-LayerGroups ===
+    var categories = {
+      "Orte": L.layerGroup(),
+      "Gebiete": L.layerGroup(),
+      "Wälder": L.layerGroup(),
+      "Gebirge": L.layerGroup(),
+      "Gewässer": L.layerGroup(),
+      "Routen": L.layerGroup()
+    };
+
+    var overlayMaps = {
+      "Orte": categories["Orte"],
+      "Gebiete": categories["Gebiete"],
+      "Wälder": categories["Wälder"],
+      "Gebirge": categories["Gebirge"],
+      "Gewässer": categories["Gewässer"],
+      "Routen": categories["Routen"]
+    };
+
+    // === Marker erstellen ===
+    function createMarker(data) {
+      var marker = L.circleMarker(data.coords, {
+        radius: 8,
+        color: 'black',
+        weight: 2,
+        fillColor: data.color,
+        fillOpacity: 1
+      }).bindPopup('<b>' + data.title + '</b><br>' + data.description);
+
+      marker.feature = { properties: { name: data.title } };
+      marker.addTo(categories[data.category]);
+      return marker;
+    }
+
+    // === Marker laden aus JSON ===
+    var allMarkers = [];
+    fetch('markers.json')
+      .then(response => response.json())
+      .then(data => {
+        data.forEach(item => {
+          var m = createMarker(item);
+          allMarkers.push(m);
+        });
+
+        // Suche aktivieren, nachdem Marker geladen sind
+        var searchControl = new L.Control.Search({
+          layer: L.featureGroup(allMarkers),
+          propertyName: 'name',
+          initial: false,
+          zoom: 1,
+          marker: false
+        });
+        map.addControl(searchControl);
+      });
+
+    // === Layer-Steuerung & Standardanzeige ===
+    L.control.layers(baseMaps, overlayMaps).addTo(map);
+    terrain.addTo(map);
+    categories["Orte"].addTo(map);
+
+    map.fitBounds(bounds);
+
+    // === Klick-Koordinaten anzeigen ===
+    map.on('click', function(e) {
+      alert("Koordinaten: " + e.latlng);
+      console.log("Koordinaten:", e.latlng);
+    });
+  </script>
+</body>
+</html>
