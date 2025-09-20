@@ -93,7 +93,12 @@ fetch('markers.json')
     L.control.layers(baseMaps, overlayMaps).addTo(map);
     terrain.addTo(map);
     categories["Orte"].addTo(map);
-
+    categories["Gebiete"].addTo(map);
+    categories["Wälder"].addTo(map);
+    categories["Gebirge"].addTo(map);
+    categories["Gewässer"].addTo(map);
+    categories["Routen"].addTo(map);
+    
     map.fitBounds(bounds);
 
     // === Klick-Koordinaten anzeigen ===
@@ -105,5 +110,6 @@ fetch('markers.json')
 </body>
 
 </html>
+
 
 
