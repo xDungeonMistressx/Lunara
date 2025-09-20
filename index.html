@@ -51,41 +51,43 @@
       "Routen": categories["Routen"]
     };
 
-    // === Marker erstellen ===
-    function createMarker(data) {
-      var marker = L.circleMarker(data.coords, {
-        radius: 8,
-        color: 'black',
-        weight: 2,
-        fillColor: data.color,
-        fillOpacity: 1
-      }).bindPopup('<b>' + data.title + '</b><br>' + data.description);
+// === Marker erstellen ===
+function createMarker(data) {
+  var marker = L.circleMarker(data.coords, {
+    radius: 8,
+    color: 'black',
+    weight: 2,
+    fillColor: data.color,
+    fillOpacity: 1
+  }).bindPopup('<b>' + data.title + '</b><br>' + data.description);
 
-      marker.feature = { properties: { name: data.title } };
-      marker.addTo(categories[data.category]);
-      return marker;
-    }
+  // statt "name" direkt "title" verwenden → einfacher
+  marker.feature = { properties: { title: data.title } };
 
-    // === Marker laden aus JSON ===
-    var allMarkers = [];
-    fetch('markers.json')
-      .then(response => response.json())
-      .then(data => {
-        data.forEach(item => {
-          var m = createMarker(item);
-          allMarkers.push(m);
-        });
+  marker.addTo(categories[data.category]);
+  return marker;
+}
 
-        // Suche aktivieren, nachdem Marker geladen sind
-        var searchControl = new L.Control.Search({
-          layer: L.featureGroup(allMarkers),
-          propertyName: 'name',
-          initial: false,
-          zoom: 1,
-          marker: false
-        });
-        map.addControl(searchControl);
-      });
+// === Marker laden aus JSON ===
+var allMarkers = [];
+fetch('markers.json')
+  .then(response => response.json())
+  .then(data => {
+    data.forEach(item => {
+      var m = createMarker(item);
+      allMarkers.push(m);
+    });
+
+    // Suche aktivieren
+    var searchControl = new L.Control.Search({
+      layer: L.featureGroup(allMarkers), // alle Marker in einer Gruppe
+      propertyName: 'title',             // durchsucht "title"
+      initial: false,
+      zoom: 2,
+      marker: false
+    });
+    map.addControl(searchControl);
+  });
 
     // === Layer-Steuerung & Standardanzeige ===
     L.control.layers(baseMaps, overlayMaps).addTo(map);
@@ -103,4 +105,5 @@
 </body>
 
 </html>
+
 
