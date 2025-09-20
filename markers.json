@@ -475,13 +475,335 @@
     "coords": [1445.5, 632.25],
     "description": "Stadt <br>Population:"
   },
-{
-  "title": "Königswald",
-  "category": "Wälder",
-  "color": "green",
-  "coords": [1604.5, 1328.5],
-  "description": "Der Wald der Königsfamilie. <br>Wildern verboten."
-},
+  {
+    "title": "Dostal",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1005.875, 1321.875],
+    "description": "Hauptstadt des Reiches Taldos. <br>Population:"
+  },
+  {
+    "title": "Port Ralos",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [907.875, 1490.5625],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Mwalua",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [709, 1374.625],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Shukra",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [520.5, 1097.125],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Gopaga",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [639.4375, 935.75],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Tis",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [548.875, 568.375],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Asanga",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [677.125, 550.625],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Soraloa",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [819.875, 465.75],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Port Teska",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [916, 1696.4375],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Zunass",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [695.375, 1526.75],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Zarun",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [708.25, 1761.25],
+    "description": "Hauptstadt des Reiches Zarunsrot. <br>Population:"
+  },
+  {
+    "title": "Uma",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [463.125, 1492.625],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Bomentor",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [509.25, 1587.625],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Nalahli",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [353.5, 1907.875],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Zsiti",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [548.25, 2166.375],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Reldos",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [557.875, 2391.25],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Ohsahu",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [829.375, 2246],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Heztiah",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [708.125, 2387.25],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Vankan",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [706.5, 3264],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Varnel",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [704.6875, 2699.875],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Oroth",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [731.5, 2563],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Tarthas",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [875.25, 2318.5],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Ancash",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [912.25, 2534],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Kelmash",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [948.875, 2669.125],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Ruvysh",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1042.5, 2338.5],
+    "description": "Hauptstadt des Reiches Ruvelia. <br>Population:"
+  },
+  {
+    "title": "Khastash",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1190.875, 2489.625],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Golkar",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1108.375, 2639.75],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Gekka",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1149.625, 2918.25],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Zondrea",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1441.375, 2970.5],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Dawynn",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1303.75, 2581.25],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Olosalor",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1338.75, 2351.25],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Lyra",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1338.75, 2351.25],
+    "description": "Hauptstadt des Reiches Lytnyen. <br>Population:"
+  },
+  {
+    "title": "Fabella",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1604.1875, 2280.1875],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Cailynn",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1510.375, 2605.875],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Sylceran",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1659.75, 3237],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Fenmyra",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1772.125, 2831.5],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Kyuthorn",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1589.0625, 2211.1875],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Belmar",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1643.5, 2298.4375],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Murgrun",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1814.6875, 2280.125],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Vorea",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1894.875, 2250.125],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Aurkon",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1949.0625, 2053.8125],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Harkin",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1634.625, 2042.625],
+    "description": "Hauptstadt des Reiches Harkingrad. <br>Population:"
+  },
+  {
+    "title": "Port Grad",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1562.625, 1964.125],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Grendain",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1815.5625, 1738.8125],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Naukhal",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1612.375, 1680],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Gralmur",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1629.1875, 1558.625],
+    "description": "Stadt. <br>Population:"
+  },
+  {
+    "title": "Redria",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1886.5625, 1417.84375],
+    "description": "Stadt. <br>Population:"
+  },
 {
   "title": "Königswald",
   "category": "Wälder",
@@ -512,6 +834,7 @@
   }
 
 ]
+
 
 
 
