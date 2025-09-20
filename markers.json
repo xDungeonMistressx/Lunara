@@ -349,6 +349,139 @@
     "coords": [1461.875, 1393.25],
     "description": "Hauptstadt von Arkindorn. <br>Die größte Stadt des Reiches. <br>Zentrum von Handel und Politik."
   },
+  {
+    "title": "Goldhafen",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1375.625, 1421.375],
+    "description": "Stadt <br>Population:"
+  },
+  {
+    "title": "Silberhof",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1194.5, 1475.5],
+    "description": "Stadt <br>Population:"
+  },
+  {
+    "title": "Rotbruck",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1045.75, 1274.75],
+    "description": "Stadt <br>Population:"
+  },
+  {
+    "title": "Dorningrad",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1115.4375, 940.875],
+    "description": "Stadt <br>Population:"
+  },
+  {
+    "title": "Braunstein",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1221.8125, 840.5],
+    "description": "Stadt <br>Population:"
+  },
+  {
+    "title": "Wolfsfort",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1277.25, 1052],
+    "description": "Stadt <br>Population:"
+  },
+  {
+    "title": "Sternstadt",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1501.875, 1088.125],
+    "description": "Stadt <br>Population:"
+  },
+  {
+    "title": "Rabenruh",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1219.625, 617.375],
+    "description": "Stadt <br>Population:"
+  },
+  {
+    "title": "Grenzburg",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1659.3125, 1471.625],
+    "description": "Stadt <br>Population:"
+  },
+  {
+    "title": "Auris",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1625.625, 1109.9375],
+    "description": "Stadt <br>Population:"
+  },
+  {
+    "title": "Ewigbach",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1784.625, 983.4375],
+    "description": "Stadt <br>Population:"
+  },
+  {
+    "title": "Düsterburg",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1926.875, 946.375],
+    "description": "Stadt <br>Population:"
+  },
+  {
+    "title": "Eulenstadt",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1675.5, 520.25],
+    "description": "Stadt <br>Population:"
+  },
+  {
+    "title": "Lautstein",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1761.75, 466.875],
+    "description": "Stadt <br>Population:"
+  },
+  {
+    "title": "Torhafen",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1858.25, 337.875],
+    "description": "Stadt <br>Population:"
+  },
+  {
+    "title": "Bergtal",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1633.375, 762],
+    "description": "Stadt <br>Population:"
+  },
+  {
+    "title": "Nezira",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1483.75, 385.25],
+    "description": "Stadt <br>Population:"
+  },
+  {
+    "title": "Jelba",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1445.5, 632.25],
+    "description": "Stadt <br>Population:"
+  },
+{
+  "title": "Königswald",
+  "category": "Wälder",
+  "color": "green",
+  "coords": [1604.5, 1328.5],
+  "description": "Der Wald der Königsfamilie. <br>Wildern verboten."
+},
 {
   "title": "Königswald",
   "category": "Wälder",
@@ -379,6 +512,7 @@
   }
 
 ]
+
 
 
 
