@@ -696,7 +696,7 @@
     "title": "Lyra",
     "category": "Orte",
     "color": "purple",
-    "coords": [1338.75, 2351.25],
+    "coords": [1475.75, 2282.375],
     "description": "Hauptstadt des Reiches Lytnyen. <br>Population:"
   },
   {
@@ -834,6 +834,7 @@
   }
 
 ]
+
 
 
 
