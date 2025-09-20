@@ -329,6 +329,20 @@
     "description": "Insel. <br>Population:"
   },
   {
+    "title": "Schlund",
+    "category": "Gebiete",
+    "color": "gray",
+    "coords": [1140.5, 1880],
+    "description": "Unbekannter Abgrund, um den sich Mythen und Legenden ranken."
+  },
+  {
+    "title": "Narkus - Ring der Elemente",
+    "category": "Gebiete",
+    "color": "gray",
+    "coords": [1295, 1874],
+    "description": "Ringförmige Landmassengruppe, die aus den Erd-, Luft-, Feuer- und Wasserlanden besteht. <br>Population: Elementare und Genasi"
+  },
+  {
     "title": "Dornstadt",
     "category": "Orte",
     "color": "purple",
@@ -365,6 +379,7 @@
   }
 
 ]
+
 
 
 
