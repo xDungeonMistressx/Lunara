@@ -48,13 +48,13 @@
     "coords": [1461.875, 1393.25],
     "description": "Hauptstadt von Arkindorn. Die größte Stadt des Reiches. Zentrum von Handel und Politik."
   },
-  {
-    "title": "Königswald",
-    "category": "Wälder",
-    "color": "green",
-    "coords": [1604.5, 1328.5,
-    "description": "Der Wald der Königsfamilie. Wildern verboten."
-  },
+{
+  "title": "Königswald",
+  "category": "Wälder",
+  "color": "green",
+  "coords": [1604.5, 1328.5],
+  "description": "Der Wald der Königsfamilie. Wildern verboten."
+},
   {
     "title": "Grenzgebirge",
     "category": "Gebirge",
@@ -78,4 +78,5 @@
   }
 
 ]
+
 
