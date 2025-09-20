@@ -47,7 +47,8 @@
       "Gebiete": categories["Gebiete"],
       "Wälder": categories["Wälder"],
       "Gebirge": categories["Gebirge"],
-      "Gewässer": categories["Gewässer"]
+      "Gewässer": categories["Gewässer"],
+      "Routen": categories["Routen"]
     };
 
 // === Marker erstellen ===
@@ -96,7 +97,6 @@ fetch('markers.json')
     categories["Wälder"].addTo(map);
     categories["Gebirge"].addTo(map);
     categories["Gewässer"].addTo(map);
-    categories["Routen"].addTo(map);
     
     map.fitBounds(bounds);
 
@@ -109,6 +109,7 @@ fetch('markers.json')
 </body>
 
 </html>
+
 
 
 
