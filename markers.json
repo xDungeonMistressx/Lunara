@@ -4,14 +4,14 @@
     "category": "Gebiete",
     "color": "gray",
     "coords": [1506, 1367],
-    "description": "Eines der sechs Reiche Lunara's. Die Arkin Familie regiert monarchistisch. Population:"
+    "description": "Eines der sechs Reiche Lunara's. <br>Regierungsform: Monarchie <br>Population:"
   },
   {
     "title": "Taldos",
     "category": "Gebiete",
     "color": "gray",
     "coords": [786, 1275],
-    "description": "Eines der sechs Reiche Lunara's. Durch die wilde Natur der Dschungel weichen die Regierungsformen nach Gebiet ab. Der Tribalismus der Ork-Stämme macht die größte Gruppe aus. Population:"
+    "description": "Eines der sechs Reiche Lunara's. <br>Durch die wilde Natur der Dschungel weichen die Regierungsformen nach Gebiet ab. Der Tribalismus der Ork-Stämme macht die größte Gruppe aus. <br>Population:"
   },
   {
     "title": "Zarunsrot",
@@ -25,322 +25,322 @@
     "category": "Gebiete",
     "color": "gray",
     "coords": [958, 2435],
-    "description": "Eines der sechs Reiche Lunara's. Magokratie. Population:"
+    "description": "Eines der sechs Reiche Lunara's. <br>Regierungsform: Magokratie <br>Population:"
   },
   {
     "title": "Lytnyen",
     "category": "Gebiete",
     "color": "gray",
     "coords": [1410, 2451],
-    "description": "Eines der sechs Reiche Lunara's. Oligarchie. Population:"
+    "description": "Eines der sechs Reiche Lunara's. <br>Regierungsform: Oligarchie <br>Population:"
   },
   {
     "title": "Harkingrad",
     "category": "Gebiete",
     "color": "gray",
     "coords": [1743, 1977],
-    "description": "Eines der sechs Reiche Lunara's. Aristokratie. Population:"
+    "description": "Eines der sechs Reiche Lunara's. <br>Regierungsform: Aristokratie <br>Population:"
   },
   {
     "title": "Minora",
     "category": "Gebiete",
     "color": "gray",
     "coords": [1847.5, 1129.5],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Laros",
     "category": "Gebiete",
     "color": "gray",
     "coords": [1910.5, 360.5],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Karpentor",
     "category": "Gebiete",
     "color": "gray",
     "coords": [1883.25, 325.5],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Calbrix",
     "category": "Gebiete",
     "color": "gray",
     "coords": [1612.25, 465.5],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Laretan",
     "category": "Gebiete",
     "color": "gray",
     "coords": [1607.25, 524],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Danos",
     "category": "Gebiete",
     "color": "gray",
     "coords": [1527, 325.5],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Mirvis",
     "category": "Gebiete",
     "color": "gray",
     "coords": [1521.5, 426.75],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Sanumo",
     "category": "Gebiete",
     "color": "gray",
     "coords": [1499.75, 375.75],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Tepit",
     "category": "Gebiete",
     "color": "gray",
     "coords": [1467.5, 634.5],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Aurisstern",
     "category": "Gebiete",
     "color": "gray",
     "coords": [1478, 1066.5],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Juno",
     "category": "Gebiete",
     "color": "gray",
     "coords": [1357.75, 1031.75],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Thunnas",
     "category": "Gebiete",
     "color": "gray",
     "coords": [1354.5, 966.5],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Kar",
     "category": "Gebiete",
     "color": "gray",
     "coords": [1304.75, 943.75],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Dornin",
     "category": "Gebiete",
     "color": "gray",
     "coords": [1175, 995.5],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Melodan",
     "category": "Gebiete",
     "color": "gray",
     "coords": [1177, 689],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Nebelbank",
     "category": "Gebiete",
     "color": "gray",
     "coords": [542.5, 435.5],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "n'Doun",
     "category": "Gebiete",
     "color": "gray",
     "coords": [494.75, 425.75],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Sesligrark",
     "category": "Gebiete",
     "color": "gray",
     "coords": [507.25, 540],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Ozzog",
     "category": "Gebiete",
     "color": "gray",
     "coords": [467, 980.25],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Bhozag",
     "category": "Gebiete",
     "color": "gray",
     "coords": [491.25, 1063.75],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Ekhiss",
     "category": "Gebiete",
     "color": "gray",
     "coords": [452.5, 1507],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Bomior",
     "category": "Gebiete",
     "color": "gray",
     "coords": [472, 1613],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Avu",
     "category": "Gebiete",
     "color": "gray",
     "coords": [577.5, 2365],
-    "description": "Halbinsel. Population:"
+    "description": "Halbinsel. <br>Population:"
   },
   {
     "title": "Nyialkesh",
     "category": "Gebiete",
     "color": "gray",
     "coords": [617.5, 2508.5],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Lumtos",
     "category": "Gebiete",
     "color": "gray",
     "coords": [872, 2718.5],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Yulresh",
     "category": "Gebiete",
     "color": "gray",
     "coords": [919.5, 2658],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Helrya",
     "category": "Gebiete",
     "color": "gray",
     "coords": [1426.5, 2983.5],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Die schwebenden Inseln",
     "category": "Gebiete",
     "color": "gray",
     "coords": [1030, 3088.5],
-    "description": "Inselgruppe (Len, Pram, Hic, Aol, Zino, Mao, Nim, Lest, Tyr, Yur). Population:"
+    "description": "Inselgruppe (Len, Pram, Hic, Aol, Zino, Mao, Nim, Lest, Tyr, Yur). <br>Population:"
   },
   {
     "title": "Luxandrya",
     "category": "Gebiete",
     "color": "gray",
     "coords": [1426.5, 2983.5],
-    "description": "Heilige Inselgruppe. Führungssitz der Sonnenarmee."
+    "description": "Heilige Inselgruppe. <br>Führungssitz der Sonnenarmee."
   },
   {
     "title": "Glynren",
     "category": "Gebiete",
     "color": "gray",
     "coords": [1795.5, 2939],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Zakein",
     "category": "Gebiete",
     "color": "gray",
     "coords": [1799.75, 2526],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Garkum",
     "category": "Gebiete",
     "color": "gray",
     "coords": [1831, 2515.25],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Lupeiros",
     "category": "Gebiete",
     "color": "gray",
     "coords": [1822, 2563.75],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Solnyss",
     "category": "Gebiete",
     "color": "gray",
     "coords": [1921.5, 2232.5],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Gramdahr",
     "category": "Gebiete",
     "color": "gray",
     "coords": [1855.75, 1375.25],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Zothea",
     "category": "Gebiete",
     "color": "gray",
     "coords": [1879.25, 1463.25],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Galnea",
     "category": "Gebiete",
     "color": "gray",
     "coords": [1924.75, 1501.5],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Venea",
     "category": "Gebiete",
     "color": "gray",
     "coords": [1949.75, 1499.5],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Nalma",
     "category": "Gebiete",
     "color": "gray",
     "coords": [1981.5, 1455],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Vigun",
     "category": "Gebiete",
     "color": "gray",
     "coords": [1978.75, 1424.5],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Geki",
     "category": "Gebiete",
     "color": "gray",
     "coords": [1949.75, 1397.25],
-    "description": "Insel. Population:"
+    "description": "Insel. <br>Population:"
   },
   {
     "title": "Dornstadt",
     "category": "Orte",
     "color": "purple",
     "coords": [1461.875, 1393.25],
-    "description": "Hauptstadt von Arkindorn. Die größte Stadt des Reiches. Zentrum von Handel und Politik."
+    "description": "Hauptstadt von Arkindorn. <br>Die größte Stadt des Reiches. <br>Zentrum von Handel und Politik."
   },
 {
   "title": "Königswald",
   "category": "Wälder",
   "color": "green",
   "coords": [1604.5, 1328.5],
-  "description": "Der Wald der Königsfamilie. Wildern verboten."
+  "description": "Der Wald der Königsfamilie. <br>Wildern verboten."
 },
   {
     "title": "Grenzgebirge",
@@ -365,6 +365,7 @@
   }
 
 ]
+
 
 
 
