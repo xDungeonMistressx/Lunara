@@ -18,7 +18,7 @@
     "category": "Gebiete",
     "color": "gray",
     "coords": [637, 1940],
-    "description": "Eines der sechs Reiche Lunara's. Durch die gefährlichen Wüstenlande verteilen sich die Siedlungsgebiete. Theokratie. Population:"
+    "description": "Eines der sechs Reiche Lunara's. <br>Durch die gefährlichen Wüstenlande verteilen sich die Siedlungsgebiete. <br>Theokratie. <br>Population:"
   },
   {
     "title": "Ruvelia",
@@ -365,6 +365,7 @@
   }
 
 ]
+
 
 
 
