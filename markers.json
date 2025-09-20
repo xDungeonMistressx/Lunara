@@ -1,44 +1,80 @@
 [
   {
-    "title": "Hauptstadt",
-    "category": "Orte",
-    "color": "purple",
-    "coords": [500, 1500],
-    "description": "Die größte Stadt des Reiches. Zentrum von Handel und Politik."
-  },
-  {
-    "title": "Königreich XY",
+    "title": "Arkindorn",
     "category": "Gebiete",
     "color": "gray",
-    "coords": [800, 1200],
-    "description": "Ein altes Königreich, das über mehrere Provinzen herrscht."
+    "coords": [1506, 1367],
+    "description": "Eines der sechs Reiche Lunara's. Die Arkin Familie regiert monarchistisch. Population:"
   },
   {
-    "title": "Finsterwald",
+    "title": "Taldos",
+    "category": "Gebiete",
+    "color": "gray",
+    "coords": [786, 1275],
+    "description": "Eines der sechs Reiche Lunara's. Durch die wilde Natur der Dschungel weichen die Regierungsformen nach Gebiet ab. Der Tribalismus der Ork-Stämme macht die größte Gruppe aus. Population:"
+  },
+  {
+    "title": "Zarunsrot",
+    "category": "Gebiete",
+    "color": "gray",
+    "coords": [637, 1940],
+    "description": "Eines der sechs Reiche Lunara's. Durch die gefährlichen Wüstenlande verteilen sich die Siedlungsgebiete. Theokratie. Population:"
+  },
+  {
+    "title": "Ruvelia",
+    "category": "Gebiete",
+    "color": "gray",
+    "coords": [958, 2435],
+    "description": "Eines der sechs Reiche Lunara's. Magokratie. Population:"
+  },
+  {
+    "title": "Lytnyen",
+    "category": "Gebiete",
+    "color": "gray",
+    "coords": [1410, 2451],
+    "description": "Eines der sechs Reiche Lunara's. Oligarchie. Population:"
+  },
+  {
+    "title": "Harkingrad",
+    "category": "Gebiete",
+    "color": "gray",
+    "coords": [1743, 1977],
+    "description": "Eines der sechs Reiche Lunara's. Aristokratie. Population:"
+  },
+  {
+    "title": "Dornstadt",
+    "category": "Orte",
+    "color": "purple",
+    "coords": [1461.875, 1393.25],
+    "description": "Hauptstadt von Arkindorn. Die größte Stadt des Reiches. Zentrum von Handel und Politik."
+  },
+  {
+    "title": "Königswald",
     "category": "Wälder",
     "color": "green",
-    "coords": [1200, 600],
-    "description": "Ein dichter Wald, in dem kaum Sonnenlicht den Boden erreicht."
+    "coords": [1604.5, 1328.5,
+    "description": "Der Wald der Königsfamilie. Wildern verboten."
   },
   {
-    "title": "Bergkette Z",
+    "title": "Grenzgebirge",
     "category": "Gebirge",
     "color": "brown",
-    "coords": [1600, 1000],
-    "description": "Eine unpassierbare Bergkette, Heimat von Drachen."
+    "coords": [1743, 1342.5],
+    "description": "Bezugsort der Rohstoffe für Handel und Produktion."
   },
   {
-    "title": "Großer See",
+    "title": "Dornsee",
     "category": "Gewässer",
     "color": "blue",
-    "coords": [1400, 1800],
-    "description": "Ein tiefes Gewässer, um das sich viele Legenden ranken."
+    "coords": [1463.5, 1343.5],
+    "description": "Der prächtige See, der Dornstadt mit den Dornbergen, der inneren und äußeren See verbindet"
   },
   {
-    "title": "Handelsroute",
+    "title": "Dornenweg",
     "category": "Routen",
     "color": "red",
-    "coords": [1000, 2000],
+    "coords": [1284, 1384],
     "description": "Wichtige Verbindung zwischen den Handelszentren des Reiches."
   }
+
 ]
