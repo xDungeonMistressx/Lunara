@@ -1568,14 +1568,78 @@
     "description": "Enge"
   },
   {
+    "title": "Zondra",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1400.5, 2980.75],
+    "description": "Fluss"
+  },
+  {
     "title": "Dornenweg",
     "category": "Routen",
-    "color": "red",
+    "color": "yellow",
     "coords": [1284, 1384],
     "description": "Wichtige Verbindung zwischen den Handelszentren des Reiches."
   }
+  {
+    "title": "Ewigweg",
+    "category": "Routen",
+    "color": "yellow",
+    "coords": [1740, 1048.25],
+    "description": "Route"
+  }
+  {
+    "title": "Eulenroute",
+    "category": "Routen",
+    "color": "yellow",
+    "coords": [1683.75, 602],
+    "description": "Route"
+  }
+  {
+    "title": "Küstenstraße",
+    "category": "Routen",
+    "color": "yellow",
+    "coords": [972.25, 1433.5],
+    "description": "Route"
+  }
+  {
+    "title": "Westweg",
+    "category": "Routen",
+    "color": "yellow",
+    "coords": [633, 642],
+    "description": "Route"
+  }
+  {
+    "title": "Rundweg",
+    "category": "Routen",
+    "color": "yellow",
+    "coords": [1153.5, 1011],
+    "description": "Route"
+  }
+  {
+    "title": "Todesroute",
+    "category": "Routen",
+    "color": "yellow",
+    "coords": [686, 1852.5],
+    "description": "Route"
+  }
+  {
+    "title": "Myra's Spuren",
+    "category": "Routen",
+    "color": "yellow",
+    "coords": [1702.75, 2999],
+    "description": "Route"
+  }
+  {
+    "title": "Lyra's Lächeln",
+    "category": "Routen",
+    "color": "yellow",
+    "coords": [1499, 2259.25],
+    "description": "Route"
+  }
 
 ]
+
 
 
 
