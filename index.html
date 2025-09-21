@@ -4,109 +4,7 @@
   <title>Lunara</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <link rel="stylesheet" href="leaflet-search.min.css" />
-<style>
-  /* Karte nimmt immer den gesamten Bildschirm */
-  #map { 
-    height: 100vh; 
-    width: 100vw; 
-  }
-
-  /* ===== Suchfeld ===== */
-  .leaflet-control-search {
-    font-size: 16px;
-    max-width: 280px;
-    background-color: #ffffff;
-    border-radius: 30px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-  }
-
-  .leaflet-control-search input {
-    flex: 1;
-    height: 40px;
-    padding: 0 12px;
-    font-size: 16px;
-    border: none;
-    outline: none;
-  }
-
-  .leaflet-control-search .search-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 40px;
-    width: 42px;
-    background-color: #f8f9fa;   /* hellgrau, nicht mehr knallblau */
-    color: #333;
-    font-size: 18px;
-    cursor: pointer;
-    text-decoration: none;
-    border-left: 1px solid #ccc; /* leichte Trennung */
-  }
-
-  .leaflet-control-search .search-button::before {
-    content: "🔍";
-  }
-
-  .leaflet-control-search .search-button:hover {
-    background-color: #e0e0e0;   /* sanfter Hover-Effekt */
-  }
-
-  /* ===== Layer-Auswahl ===== */
-  .leaflet-control-layers {
-    font-size: 16px;
-    background-color: rgba(255, 255, 255, 0.95);
-    border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-  }
-
-  .leaflet-control-layers label {
-    padding: 8px 12px;
-    cursor: pointer;
-  }
-
-  .leaflet-control-layers input {
-    width: 20px;
-    height: 20px;
-  }
-
-  .leaflet-control-layers label:hover {
-    background: #f0f0f0;
-    border-radius: 6px;
-  }
-
-  /* ===== Mobile Optimierung ===== */
-  @media (max-width: 768px) {
-    .leaflet-control-search {
-      max-width: 90%;       /* breiter über den Screen */
-      font-size: 18px;
-    }
-    .leaflet-control-search input {
-      height: 48px;
-      font-size: 18px;
-    }
-    .leaflet-control-search .search-button {
-      height: 48px;
-      width: 50px;
-      font-size: 20px;
-    }
-    .leaflet-control-layers {
-      font-size: 18px;
-    }
-    .leaflet-control-layers input {
-      width: 22px;
-      height: 22px;
-    }
-  }
-
-  @media (max-width: 480px) {
-    .leaflet-control-search {
-      max-width: 100%;      /* ganz über die Breite */
-    }
-  }
-</style>
+V
 
 </head>
 <body>
@@ -210,6 +108,7 @@ fetch('markers.json')
 </body>
 
 </html>
+
 
 
 
