@@ -931,6 +931,146 @@
     "description": "Bezugsort der Rohstoffe für Handel und Produktion."
   },
   {
+    "title": "Kaminover Kette",
+    "category": "Gebirge",
+    "color": "brown",
+    "coords": [1595, 792.25],
+    "description": "Gebirge"
+  },
+  {
+    "title": "Dornberge",
+    "category": "Gebirge",
+    "color": "brown",
+    "coords": [1511.75, 1522.25],
+    "description": "Gebirge"
+  },
+  {
+    "title": "Rotgebirge",
+    "category": "Gebirge",
+    "color": "brown",
+    "coords": [1269, 1208],
+    "description": "Gebirge"
+  },
+  {
+    "title": "Nebelberge",
+    "category": "Gebirge",
+    "color": "brown",
+    "coords": [1183.75, 934.75],
+    "description": "Gebirge"
+  },
+  {
+    "title": "Tikki Kamm",
+    "category": "Gebirge",
+    "color": "brown",
+    "coords": [879.75, 1175.25],
+    "description": "Gebirge"
+  },
+  {
+    "title": "Zobagebirge",
+    "category": "Gebirge",
+    "color": "brown",
+    "coords": [610.75, 879.25],
+    "description": "Gebirge"
+  },
+  {
+    "title": "Sonugebirge",
+    "category": "Gebirge",
+    "color": "brown",
+    "coords": [758, 527.25],
+    "description": "Gebirge"
+  },
+  {
+    "title": "Todeskamm",
+    "category": "Gebirge",
+    "color": "brown",
+    "coords": [631.25, 1477],
+    "description": "Gebirge"
+  },
+  {
+    "title": "Akhushla Kamm",
+    "category": "Gebirge",
+    "color": "brown",
+    "coords": [780, 1573.5],
+    "description": "Gebirge"
+  },
+  {
+    "title": "Senaberge",
+    "category": "Gebirge",
+    "color": "brown",
+    "coords": [758.75, 1872.25],
+    "description": "Gebirge"
+  },
+  {
+    "title": "Suhsoyu Gebirge",
+    "category": "Gebirge",
+    "color": "brown",
+    "coords": [540.25, 1922],
+    "description": "Gebirge"
+  },
+  {
+    "title": "Schlangenzähne",
+    "category": "Gebirge",
+    "color": "brown",
+    "coords": [711.25, 2173.25],
+    "description": "Gebirge"
+  },
+  {
+    "title": "Zhastla Berge",
+    "category": "Gebirge",
+    "color": "brown",
+    "coords": [759, 2305],
+    "description": "Gebirge"
+  },
+  {
+    "title": "Nalro's Berge",
+    "category": "Gebirge",
+    "color": "brown",
+    "coords": [602.25, 2829.5],
+    "description": "Gebirge"
+  },
+  {
+    "title": "Ruvel's Kamm",
+    "category": "Gebirge",
+    "color": "brown",
+    "coords": [763.75, 2571],
+    "description": "Gebirge"
+  },
+  {
+    "title": "Hochgebirge",
+    "category": "Gebirge",
+    "color": "brown",
+    "coords": [1266, 2406.5],
+    "description": "Gebirge"
+  },
+  {
+    "title": "Myra's Berge",
+    "category": "Gebirge",
+    "color": "brown",
+    "coords": [1820, 2734.75],
+    "description": "Gebirge"
+  },
+  {
+    "title": "Kristallberge",
+    "category": "Gebirge",
+    "color": "brown",
+    "coords": [1737.5, 2315.75],
+    "description": "Gebirge"
+  },
+  {
+    "title": "Eisspitzgebirge",
+    "category": "Gebirge",
+    "color": "brown",
+    "coords": [1884.25, 1995.25],
+    "description": "Gebirge"
+  },
+  {
+    "title": "Windkantenberge",
+    "category": "Gebirge",
+    "color": "brown",
+    "coords": [1782, 1659],
+    "description": "Gebirge"
+  },
+  {
     "title": "Dornsee",
     "category": "Gewässer",
     "color": "blue",
@@ -946,6 +1086,7 @@
   }
 
 ]
+
 
 
 
