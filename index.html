@@ -32,28 +32,29 @@
     border-color: #007bff;            /* blaue Umrandung beim Fokus */
     box-shadow: 0 0 5px rgba(0,123,255,0.5);
   }
-
-/* Suchbutton neu gestalten */
-.leaflet-control-search button {
+/* Suchbutton Styling */
+.leaflet-control-search .search-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   height: 32px;
   width: 32px;
+  font-size: 18px;
+  background-color: #ffffff;   /* Hintergrund */
+  color: #555;                 /* Lupe-Farbe */
   border-radius: 6px;
   border: 2px solid #555;
-  background-color: #ffffff;
   cursor: pointer;
-  background-image: url("https://cdn-icons-png.flaticon.com/512/622/622669.png"); /* Lupe */
-  background-size: 16px 16px;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 0;
+  text-decoration: none;       /* entfernt Unterstreichung */
 }
 
-.leaflet-control-search button:hover {
-  background-color: #e6e6e6; /* sanfter Hover-Effekt */
+.leaflet-control-search .search-button::before {
+  content: "🔍";               /* Unicode-Lupe */
+  font-size: 18px;
 }
 
-.leaflet-control-search button span::before {
-  content: "🔍";   /* Unicode-Lupe */
+.leaflet-control-search .search-button:hover {
+  background-color: #f0f0f0;   /* Hover-Effekt */
 }
 
   .leaflet-control-search button:hover {
@@ -184,6 +185,7 @@ fetch('markers.json')
 </body>
 
 </html>
+
 
 
 
