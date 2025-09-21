@@ -4,45 +4,73 @@
   <title>Lunara</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <link rel="stylesheet" href="leaflet-search.min.css" />
-  <style>
-    #map { height: 100vh; width: 100vw; }
-    .leaflet-control-search {
-  font-size: 16px;        /* Schrift größer */
-  max-width: 250px;       /* breiteres Suchfeld */
-}
+<style>
+  /* Karte */
+  #map { height: 100vh; width: 100vw; }
 
-.leaflet-control-search input {
-  height: 30px;           /* Eingabefeld höher */
-  padding: 4px 8px;
-  font-size: 15px;
-  border: 2px solid #444; /* dunklere Umrandung */
-  border-radius: 6px;     /* abgerundete Ecken */
-}
+  /* ===== Suchfeld ===== */
+  .leaflet-control-search {
+    font-size: 16px;                  /* Schriftgröße */
+    max-width: 250px;                 /* breiteres Feld */
+    background-color: #ffffff;        /* helles Feld */
+    padding: 4px 6px;
+    border-radius: 8px;               /* abgerundet */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3); /* leichter Schatten */
+  }
 
-.leaflet-control-search button {
-  height: 30px;
-  width: 30px;
-  font-size: 16px;
-}
-    .leaflet-control-layers {
-  font-size: 15px;         /* Schrift größer */
-}
+  .leaflet-control-search input {
+    height: 32px;
+    padding: 6px 10px;
+    font-size: 15px;
+    border: 2px solid #555;           /* dunklere Umrandung */
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
 
-.leaflet-control-layers label {
-  padding: 4px 8px;        /* mehr Abstand */
-}
+  .leaflet-control-search input:focus {
+    border-color: #007bff;            /* blaue Umrandung beim Fokus */
+    box-shadow: 0 0 5px rgba(0,123,255,0.5);
+  }
 
-.leaflet-control-layers input {
-  width: 18px;
-  height: 18px;            /* größere Checkboxen */
-}
-    /* Hover-Effekt für die Layer-Auswahl */
-.leaflet-control-layers label:hover {
-  background: #f0f0f0;   /* hellgrauer Hintergrund */
-  border-radius: 4px;    /* sanft abgerundete Ecken */
-  cursor: pointer;       /* Hand-Symbol beim Darüberfahren */
-}
-  </style>
+  .leaflet-control-search button {
+    height: 32px;
+    width: 32px;
+    font-size: 16px;
+    background-color: #007bff;        /* blaue Lupe */
+    color: white;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+
+  .leaflet-control-search button:hover {
+    background-color: #0056b3;        /* dunkler beim Hover */
+  }
+
+  /* ===== Layer-Auswahl ===== */
+  .leaflet-control-layers {
+    font-size: 15px;                  /* Schrift größer */
+  }
+
+  .leaflet-control-layers label {
+    padding: 4px 8px;                 /* mehr Abstand */
+  }
+
+  .leaflet-control-layers input {
+    width: 18px;
+    height: 18px;                      /* größere Checkboxen */
+  }
+
+  /* Hover-Effekt für Layer-Auswahl */
+  .leaflet-control-layers label:hover {
+    background: #f0f0f0;              /* hellgrauer Hintergrund */
+    border-radius: 4px;               /* sanft abgerundet */
+    cursor: pointer;                  /* Hand-Symbol */
+  }
+</style>
+
 </head>
 <body>
   <div id="map"></div>
@@ -145,6 +173,7 @@ fetch('markers.json')
 </body>
 
 </html>
+
 
 
 
