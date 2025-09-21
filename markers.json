@@ -804,13 +804,125 @@
     "coords": [1886.5625, 1417.84375],
     "description": "Stadt. <br>Population:"
   },
-{
-  "title": "Königswald",
-  "category": "Wälder",
-  "color": "green",
-  "coords": [1604.5, 1328.5],
-  "description": "Der Wald der Königsfamilie. <br>Wildern verboten."
-},
+  {
+    "title": "Königswald",
+    "category": "Wälder",
+    "color": "green",
+    "coords": [1604.5, 1328.5],
+    "description": "Der Wald der Königsfamilie. <br>Wildern verboten."
+  },
+  {
+    "title": "Das Darkmoor",
+    "category": "Wälder",
+    "color": "green",
+    "coords": [1717.5, 721.5],
+    "description": "Waldgebiet"
+  },
+  {
+    "title": "Düstermoor",
+    "category": "Wälder",
+    "color": "green",
+    "coords": [1863, 983],
+    "description": "Waldgebiet"
+  },
+  {
+    "title": "Warmholz",
+    "category": "Wälder",
+    "color": "green",
+    "coords": [1698, 1004.5],
+    "description": "Waldgebiet"
+  },
+  {
+    "title": "Kaltholz",
+    "category": "Wälder",
+    "color": "green",
+    "coords": [1755.25, 1114.25],
+    "description": "Waldgebiet"
+  },
+  {
+    "title": "Sternenwald",
+    "category": "Wälder",
+    "color": "green",
+    "coords": [1552.75, 1238.25],
+    "description": "Waldgebiet"
+  },
+  {
+    "title": "Grenzwald",
+    "category": "Wälder",
+    "color": "green",
+    "coords": [1571.75, 1480.5],
+    "description": "Waldgebiet"
+  },
+  {
+    "title": "Dornwald",
+    "category": "Wälder",
+    "color": "green",
+    "coords": [1410, 1313],
+    "description": "Waldgebiet"
+  },
+  {
+    "title": "Wald der Ruhe",
+    "category": "Wälder",
+    "color": "green",
+    "coords": [1183, 1277],
+    "description": "Waldgebiet"
+  },
+  {
+    "title": "Nebelwald",
+    "category": "Wälder",
+    "color": "green",
+    "coords": [1193.5, 1042.5],
+    "description": "Waldgebiet"
+  },
+  {
+    "title": "Dschungel von Taldos",
+    "category": "Wälder",
+    "color": "green",
+    "coords": [683.5, 886.5],
+    "description": "Dschungel"
+  },
+  {
+    "title": "Hochwald",
+    "category": "Wälder",
+    "color": "green",
+    "coords": [1354, 2465],
+    "description": "Waldgebiet"
+  },
+  {
+    "title": "Starkholz",
+    "category": "Wälder",
+    "color": "green",
+    "coords": [1536, 2309.25],
+    "description": "Waldgebiet"
+  },
+  {
+    "title": "Fabelwald",
+    "category": "Wälder",
+    "color": "green",
+    "coords": [1630.5, 2525],
+    "description": "Waldgebiet"
+  },
+  {
+    "title": "Wald der Alten",
+    "category": "Wälder",
+    "color": "green",
+    "coords": [1666.5, 2804.5],
+    "description": "Waldgebiet"
+  },
+  {
+    "title": "Sonnenwald",
+    "category": "Wälder",
+    "color": "green",
+    "coords": [1705.25, 3092.25],
+    "description": "Waldgebiet"
+  },
+  {
+    "title": "Lichterwald",
+    "category": "Wälder",
+    "color": "green",
+    "coords": [1713, 3367.25],
+    "description": "Waldgebiet"
+  },
   {
     "title": "Grenzgebirge",
     "category": "Gebirge",
@@ -834,6 +946,7 @@
   }
 
 ]
+
 
 
 
