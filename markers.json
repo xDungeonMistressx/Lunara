@@ -1577,68 +1577,69 @@
   {
     "title": "Dornenweg",
     "category": "Routen",
-    "color": "yellow",
+    "color": "red",
     "coords": [1284, 1384],
     "description": "Wichtige Verbindung zwischen den Handelszentren des Reiches."
   }
   {
     "title": "Ewigweg",
     "category": "Routen",
-    "color": "yellow",
+    "color": "red",
     "coords": [1740, 1048.25],
     "description": "Route"
   }
   {
     "title": "Eulenroute",
     "category": "Routen",
-    "color": "yellow",
+    "color": "red",
     "coords": [1683.75, 602],
     "description": "Route"
   }
   {
     "title": "Küstenstraße",
     "category": "Routen",
-    "color": "yellow",
+    "color": "red",
     "coords": [972.25, 1433.5],
     "description": "Route"
   }
   {
     "title": "Westweg",
     "category": "Routen",
-    "color": "yellow",
+    "color": "red",
     "coords": [633, 642],
     "description": "Route"
   }
   {
     "title": "Rundweg",
     "category": "Routen",
-    "color": "yellow",
+    "color": "red",
     "coords": [1153.5, 1011],
     "description": "Route"
   }
   {
     "title": "Todesroute",
     "category": "Routen",
-    "color": "yellow",
+    "color": "red",
     "coords": [686, 1852.5],
     "description": "Route"
   }
   {
     "title": "Myra's Spuren",
     "category": "Routen",
-    "color": "yellow",
+    "color": "red",
     "coords": [1702.75, 2999],
     "description": "Route"
   }
   {
     "title": "Lyra's Lächeln",
     "category": "Routen",
-    "color": "yellow",
+    "color": "red",
     "coords": [1499, 2259.25],
     "description": "Route"
   }
 
 ]
+
 
 
 
