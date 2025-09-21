@@ -5,81 +5,101 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <link rel="stylesheet" href="leaflet-search.min.css" />
 <style>
-  /* Karte */
-  #map { height: 100vh; width: 100vw; }
+  /* Karte nimmt immer den gesamten Bildschirm */
+  #map { 
+    height: 100vh; 
+    width: 100vw; 
+  }
 
   /* ===== Suchfeld ===== */
   .leaflet-control-search {
-    font-size: 16px;                  /* Schriftgröße */
-    max-width: 250px;                 /* breiteres Feld */
-    background-color: #ffffff;        /* helles Feld */
-    padding: 4px 6px;
-    border-radius: 8px;               /* abgerundet */
-    box-shadow: 0 2px 6px rgba(0,0,0,0.3); /* leichter Schatten */
+    font-size: 16px;
+    max-width: 280px;
+    background-color: #ffffff;
+    border-radius: 30px;          /* rundes Feld */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
   }
 
   .leaflet-control-search input {
-    height: 32px;
-    padding: 6px 10px;
+    flex: 1;                      /* nimmt den Platz ein */
+    height: 36px;
+    padding: 0 12px;
     font-size: 15px;
-    border: 2px solid #555;           /* dunklere Umrandung */
-    border-radius: 6px;
+    border: none;
     outline: none;
-    transition: border-color 0.2s, box-shadow 0.2s;
   }
 
-  .leaflet-control-search input:focus {
-    border-color: #007bff;            /* blaue Umrandung beim Fokus */
-    box-shadow: 0 0 5px rgba(0,123,255,0.5);
+  .leaflet-control-search .search-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    width: 40px;
+    background-color: #007bff;    /* blau */
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
   }
-/* Suchbutton Styling */
-.leaflet-control-search .search-button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  height: 32px;
-  width: 32px;
-  font-size: 18px;
-  background-color: #ffffff;   /* Hintergrund */
-  color: #555;                 /* Lupe-Farbe */
-  border-radius: 6px;
-  border: 2px solid #555;
-  cursor: pointer;
-  text-decoration: none;       /* entfernt Unterstreichung */
-}
 
-.leaflet-control-search .search-button::before {
-  content: "🔍";               /* Unicode-Lupe */
-  font-size: 18px;
-}
+  .leaflet-control-search .search-button::before {
+    content: "🔍";
+  }
 
-.leaflet-control-search .search-button:hover {
-  background-color: #f0f0f0;   /* Hover-Effekt */
-}
-
-  .leaflet-control-search button:hover {
-    background-color: #0056b3;        /* dunkler beim Hover */
+  .leaflet-control-search .search-button:hover {
+    background-color: #0056b3;    /* dunkler Blau-Ton */
   }
 
   /* ===== Layer-Auswahl ===== */
   .leaflet-control-layers {
-    font-size: 15px;                  /* Schrift größer */
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
   }
 
   .leaflet-control-layers label {
-    padding: 4px 8px;                 /* mehr Abstand */
+    padding: 6px 10px;
+    cursor: pointer;
   }
 
   .leaflet-control-layers input {
     width: 18px;
-    height: 18px;                      /* größere Checkboxen */
+    height: 18px;
   }
 
-  /* Hover-Effekt für Layer-Auswahl */
   .leaflet-control-layers label:hover {
-    background: #f0f0f0;              /* hellgrauer Hintergrund */
-    border-radius: 4px;               /* sanft abgerundet */
-    cursor: pointer;                  /* Hand-Symbol */
+    background: #f0f0f0;
+    border-radius: 4px;
+  }
+
+  /* ===== Mobile Optimierung ===== */
+  @media (max-width: 768px) {
+    .leaflet-control-search {
+      max-width: 200px;
+      font-size: 14px;
+    }
+    .leaflet-control-search input {
+      height: 32px;
+      font-size: 14px;
+    }
+    .leaflet-control-search .search-button {
+      height: 32px;
+      width: 36px;
+      font-size: 16px;
+    }
+    .leaflet-control-layers {
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .leaflet-control-search {
+      max-width: 160px;          /* schmaleres Feld auf sehr kleinen Screens */
+    }
   }
 </style>
 
@@ -185,6 +205,7 @@ fetch('markers.json')
 </body>
 
 </html>
+
 
 
 
