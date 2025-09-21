@@ -33,17 +33,20 @@
     box-shadow: 0 0 5px rgba(0,123,255,0.5);
   }
 
-  .leaflet-control-search button {
-    height: 32px;
-    width: 32px;
-    font-size: 16px;
-    background-color: #007bff;        /* blaue Lupe */
-    color: white;
-    border-radius: 6px;
-    border: none;
-    cursor: pointer;
-    transition: background 0.2s;
-  }
+.leaflet-control-search button {
+  height: 32px;
+  width: 32px;
+  font-size: 16px;
+  background-color: #ffffff;   /* helles Feld */
+  color: #555;                 /* Farbe der Lupe */
+  border-radius: 6px;
+  border: 2px solid #555;
+  cursor: pointer;
+}
+
+.leaflet-control-search button::before {
+  content: "\1F50D";           /* Unicode für Lupe 🔍 */
+}
 
   .leaflet-control-search button:hover {
     background-color: #0056b3;        /* dunkler beim Hover */
@@ -173,6 +176,7 @@ fetch('markers.json')
 </body>
 
 </html>
+
 
 
 
