@@ -33,6 +33,7 @@
     box-shadow: 0 0 5px rgba(0,123,255,0.5);
   }
 
+/* Suchbutton neu gestalten */
 .leaflet-control-search button {
   height: 32px;
   width: 32px;
@@ -40,18 +41,15 @@
   border: 2px solid #555;
   background-color: #ffffff;
   cursor: pointer;
-  display: flex;              /* zentriert die Lupe */
-  align-items: center;
-  justify-content: center;
-  font-size: 18px;            /* Größe der Lupe */
-  color: #555;                /* Farbe der Lupe */
+  background-image: url("https://cdn-icons-png.flaticon.com/512/622/622669.png"); /* Lupe */
+  background-size: 16px 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0;
 }
 
-/* Lupe einfügen direkt ins Button-Span */
-.leaflet-control-search button span {
-  display: inline-block;
-  font-size: 18px;
-  line-height: 1;
+.leaflet-control-search button:hover {
+  background-color: #e6e6e6; /* sanfter Hover-Effekt */
 }
 
 .leaflet-control-search button span::before {
@@ -186,6 +184,7 @@ fetch('markers.json')
 </body>
 
 </html>
+
 
 
 
