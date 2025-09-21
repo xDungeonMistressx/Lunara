@@ -11,14 +11,14 @@
     "category": "Gebiete",
     "color": "gray",
     "coords": [786, 1275],
-    "description": "Eines der sechs Reiche Lunara's. <br>Durch die wilde Natur der Dschungel weichen die Regierungsformen nach Gebiet ab. Der Tribalismus der Ork-Stämme macht die größte Gruppe aus. <br>Population:"
+    "description": "Eines der sechs Reiche Lunara's. <br>Regierungsform: Vorwiegend Tribalismus. <br>Population:"
   },
   {
     "title": "Zarunsrot",
     "category": "Gebiete",
     "color": "gray",
     "coords": [637, 1940],
-    "description": "Eines der sechs Reiche Lunara's. <br>Durch die gefährlichen Wüstenlande verteilen sich die Siedlungsgebiete. <br>Theokratie. <br>Population:"
+    "description": "Eines der sechs Reiche Lunara's. <br>Durch die gefährlichen Wüstenlande verteilen sich die Siedlungsgebiete. <br>Regierungsform: Theokratie. <br>Population:"
   },
   {
     "title": "Ruvelia",
@@ -1078,6 +1078,496 @@
     "description": "Der prächtige See, der Dornstadt mit den Dornbergen, der inneren und äußeren See verbindet"
   },
   {
+    "title": "Steinsee",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1752.5, 494],
+    "description": "See"
+  },
+  {
+    "title": "Nachtruh",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1710, 485],
+    "description": "Fluss"
+  },
+  {
+    "title": "Aale",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1805.25, 571.25],
+    "description": "Fluss"
+  },
+  {
+    "title": "Ewigsee",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1768.5, 941.5],
+    "description": "See"
+  },
+  {
+    "title": "Ziller",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1863.5, 922],
+    "description": "Fluss"
+  },
+  {
+    "title": "Aurissee",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1675, 1210],
+    "description": "See"
+  },
+  {
+    "title": "Linds",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1651.5, 1124.25],
+    "description": "Fluss"
+  },
+  {
+    "title": "Bergsee",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1697.25, 1341.25],
+    "description": "See"
+  },
+  {
+    "title": "Grenzfluss",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1655.25, 1432],
+    "description": "Fluss"
+  },
+  {
+    "title": "Arke",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1453.25, 1254.5],
+    "description": "Fluss"
+  },
+  {
+    "title": "Münzfluss",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1411.25, 1411],
+    "description": "Fluss"
+  },
+  {
+    "title": "Silbersee",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1162, 1417],
+    "description": "See"
+  },
+  {
+    "title": "Glanz",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1230.25, 1414.25],
+    "description": "Fluss"
+  },
+  {
+    "title": "Reck",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1160, 1184.5],
+    "description": "Fluss"
+  },
+  {
+    "title": "Ruh",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1236.25, 1223.75],
+    "description": "Fluss"
+  },
+  {
+    "title": "Wolfssee",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1254.75, 1046.75],
+    "description": "See"
+  },
+  {
+    "title": "Torn",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1131.5, 944.75],
+    "description": "Fluss"
+  },
+  {
+    "title": "Melosee",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1185.25, 656.75],
+    "description": "See"
+  },
+  {
+    "title": "Dos",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [893.25, 1407],
+    "description": "Fluss"
+  },
+  {
+    "title": "Ralun",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [935.25, 1332.25],
+    "description": "Fluss"
+  },
+  {
+    "title": "Taldorn Kanal",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1026.25, 1324.5],
+    "description": "Kanal"
+  },
+  {
+    "title": "Hone",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [726.75, 1374.25],
+    "description": "Fluss"
+  },
+  {
+    "title": "Kwalu",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [696.375, 1259.75],
+    "description": "Fluss"
+  },
+  {
+    "title": "Bala",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [674, 1157.25],
+    "description": "Fluss"
+  },
+  {
+    "title": "Nbalu See",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [762, 1255.75],
+    "description": "See"
+  },
+  {
+    "title": "Goa",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [555.75, 908.25],
+    "description": "Fluss"
+  },
+  {
+    "title": "Paga See",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [636.5, 878.625],
+    "description": "See"
+  },
+  {
+    "title": "Pagis",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [643.875, 798.75],
+    "description": "Fluss"
+  },
+  {
+    "title": "Soralis",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [798.875, 467.5],
+    "description": "Fluss"
+  },
+  {
+    "title": "Talrot Kanal",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [766.75, 1480.5],
+    "description": "Kanal"
+  },
+  {
+    "title": "Runis",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [732.875, 1776.375],
+    "description": "Fluss"
+  },
+  {
+    "title": "Nahli",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [465, 1911],
+    "description": "Fluss"
+  },
+  {
+    "title": "Ohsan",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [783.25, 2200.875],
+    "description": "Fluss"
+  },
+  {
+    "title": "Zarunia Kanal",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [805.25, 2349],
+    "description": "Kanal"
+  },
+  {
+    "title": "Darkonsee",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [673.25, 3261.25],
+    "description": "See"
+  },
+  {
+    "title": "Kansush",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [702.375, 3136.5],
+    "description": "Fluss"
+  },
+  {
+    "title": "Oro See",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [723.5, 2603.875],
+    "description": "See"
+  },
+  {
+    "title": "Zesh",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [735.25, 2517],
+    "description": "Fluss"
+  },
+  {
+    "title": "Timet",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [932.5, 2489.25],
+    "description": "Fluss"
+  },
+  {
+    "title": "Ruvys See",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1000.5, 2345.75],
+    "description": "See"
+  },
+  {
+    "title": "Gol",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1109.75, 2625.5],
+    "description": "Fluss"
+  },
+  {
+    "title": "Khago See",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1154.5, 2610.75],
+    "description": "See"
+  },
+  {
+    "title": "Lenits",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1143.5, 2734.75],
+    "description": "Fluss"
+  },
+  {
+    "title": "Ynezsh",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1214, 2686.75],
+    "description": "Fluss"
+  },
+  {
+    "title": "Melzek",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1156.25, 2880.875],
+    "description": "Fluss"
+  },
+  {
+    "title": "Lyvelia Kanal",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1232.25, 2526.75],
+    "description": "Kanal"
+  },
+  {
+    "title": "Salosyu",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1313.625, 2354.25],
+    "description": "Fluss"
+  },
+  {
+    "title": "Rotfluss",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1481.75, 2356.75],
+    "description": "Fluss"
+  },
+  {
+    "title": "Nyen See",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1538.25, 2457.75],
+    "description": "See"
+  },
+  {
+    "title": "Nynn",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1581, 2547.25],
+    "description": "Fluss"
+  },
+  {
+    "title": "Calys",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1590.25, 2630],
+    "description": "Fluss"
+  },
+  {
+    "title": "Elyris See",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1670.25, 2657.5],
+    "description": "See"
+  },
+  {
+    "title": "Fen",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1776.75, 2783.25],
+    "description": "Fluss"
+  },
+  {
+    "title": "Hammer",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1608.5, 2181],
+    "description": "Fluss"
+  },
+  {
+    "title": "Amboss",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1748.75, 2193.5],
+    "description": "Fluss"
+  },
+  {
+    "title": "Hartnyen Kanal",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1631.75, 2381.75],
+    "description": "Kanal"
+  },
+  {
+    "title": "Harkinsee",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1804.75, 2062.75],
+    "description": "See"
+  },
+  {
+    "title": "Klinge",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1776, 1933.5],
+    "description": "Fluss"
+  },
+  {
+    "title": "Gren",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1722, 1860.25],
+    "description": "Fluss"
+  },
+  {
+    "title": "Grensee",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1799.25, 1793.75],
+    "description": "See"
+  },
+  {
+    "title": "Rupp",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1661.25, 1779.75],
+    "description": "Fluss"
+  },
+  {
+    "title": "Nauk",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1607.375, 1663.5],
+    "description": "Fluss"
+  },
+  {
+    "title": "Grale",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1667.5, 1587.25],
+    "description": "Fluss"
+  },
+  {
+    "title": "Harkindorn Kanal",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1722.25, 1433.25],
+    "description": "Kanal"
+  },
+  {
+    "title": "Innere See",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1404, 1881],
+    "description": "Meer"
+  },
+  {
+    "title": "Äußere See",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [190, 1931],
+    "description": "Meer"
+  },
+  {
+    "title": "Aeran",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1082.25, 1781],
+    "description": "Enge"
+  },
+  {
+    "title": "Ignis",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1079, 1968.25],
+    "description": "Enge"
+  },
+  {
+    "title": "Terra",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1207, 1967.25],
+    "description": "Enge"
+  },
+  {
+    "title": "Aquar",
+    "category": "Gewässer",
+    "color": "blue",
+    "coords": [1213.25, 1790.5],
+    "description": "Enge"
+  },
+  {
     "title": "Dornenweg",
     "category": "Routen",
     "color": "red",
@@ -1086,6 +1576,7 @@
   }
 
 ]
+
 
 
 
