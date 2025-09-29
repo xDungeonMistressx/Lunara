@@ -180,16 +180,19 @@ fetch('markers.json')
     });
 
     // Suche aktivieren
-var searchControl = new L.Control.Search({
-  layer: L.featureGroup(allMarkers), // alle Marker in einer Gruppe
-  propertyName: 'title',             // durchsucht "title"
-  initial: true,                     // Vorschläge werden sofort angezeigt
-  zoom: 2,
-  marker: false,
-  autoCollapse: false,               // Suchfeld bleibt offen
-  autoType: true,                    // zeigt Vorschläge beim Tippen
-  minLength: 1                       // ab 1 Zeichen Vorschläge anzeigen
-});
+    var searchControl = new L.Control.Search({
+      layer: L.featureGroup(allMarkers), // alle Marker in einer Gruppe
+      propertyName: 'title',             // durchsucht "title"
+      initial: true,                     // Vorschläge werden sofort angezeigt
+      zoom: 2,
+      marker: false,
+      autoCollapse: false,               // Suchfeld bleibt offen
+      autoType: true,                    // zeigt Vorschläge beim Tippen
+      minLength: 1                       // ab 1 Zeichen Vorschläge anzeigen
+    });
+
+    map.addControl(searchControl);       // <--- wichtig!
+  }); // <-- hier wird das .then() korrekt geschlossen
 
 
     // === Layer-Steuerung & Standardanzeige ===
@@ -212,6 +215,7 @@ var searchControl = new L.Control.Search({
 </body>
 
 </html>
+
 
 
 
